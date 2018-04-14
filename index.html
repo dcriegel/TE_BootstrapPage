@@ -1,0 +1,298 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Tech Elevator</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/solid.js" integrity="sha384-P4tSluxIpPk9wNy8WSD8wJDvA8YZIkC6AQ+BfAFLXcUZIPQGu4Ifv4Kqq+i2XzrM" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/fontawesome.js" integrity="sha384-2IUdwouOFWauLdwTuAyHeMMRFfeyy4vqYNjodih+28v2ReC+8j+sLF9cK339k5hY" crossorigin="anonymous"></script>
+
+
+    <style>
+
+        .headerBar {
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: -20px;
+        }
+
+        .jumbotron {
+            background-image: url('img/te_present_906x600.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+        }
+
+        .jumbotron h1 {
+            font-size: 28px;
+            margin-top: 50px;
+        }
+
+        .jumbotron p {
+            font-size: 18px;
+            margin-bottom: -10px;
+        }
+
+		.logo {
+			padding-top: 10px;
+		}
+		
+        .navbar-nav {
+            list-style-type: none;
+            padding-right: 15px;
+            position: center;
+        }
+
+        .nav-item {
+            padding-left: 100px;
+        }
+		
+		.photoText1 {
+				margin-top: -125px;
+				color: white;
+		}
+		
+		.photoText2 {
+				margin-top: -45px;
+				color: white;
+		}
+		
+		.photoText3 {
+				margin-top: -100px;
+				color: white;
+		}
+		
+        .table {
+            border: 1.5px solid gray;
+        }
+
+        .price {
+            font-size: 40px;
+        }
+
+        .dollar {
+            font-size: 20px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="headerBar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <img src="img/te_logo.png" class="logo" alt="Tech Elevator" width="175" height="40">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#welcome">Welcome</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#impact">Impact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#signup">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="jumbotron" id="welcome">
+        <h1>Big Welcome Message</h1><br />
+        <p>Ingenious marketing copy. And some more ingenious marketing copy.      <a href="#features" class="btn btn-primary"><b>Learn more</b></a></p>
+    </div>
+
+
+    <!-- FEATURES SECTION -->
+    <section id="features">
+        <div class="container">
+            <h1>Features</h1><br />
+            <div class="row">
+                <div class="col-md-4">
+                    <div style="text-align:center">
+                        <i class="fas fa-snowflake fa-10x"></i>
+                        <h2>Feature 1</h2>
+                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo. </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div style="text-align:center">
+                        <i class="fas fa-ship fa-10x"></i>
+                        <h2>Feature 2</h2>
+                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo. </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div style="text-align:center">
+                        <i class="fas fa-bullseye fa-10x"></i>
+                        <h2>Feature 3</h2>
+                        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div style="text-align:center">
+                        <i class="fas fa-handshake fa-10x"></i>
+                        <h2>Feature 4</h2>
+                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo. </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div style="text-align:center">
+                        <i class="fas fa-bicycle fa-10x"></i>
+                        <h2>Feature 5</h2>
+                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo. </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div style="text-align:center">
+                        <i class="fas fa-bug fa-10x"></i>
+                        <h2>Feature 6</h2>
+                        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+    <!-- IMPACT SECTION -->
+    <section id="impact">
+        <div class="container">
+            <h1>Impact</h1><br />
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/photo_one.jpg" class="img-fluid" alt="Photo One">
+                    <blockquote class="photoText1"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, nulla pretium commodo ultricies</p></blockquote>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/photo_two.jpg" class="img-fluid" alt="Photo Two">
+                    <blockquote class="photoText2"><p>Lorem ipsum dolor sit amet</p></blockquote>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/photo_three.jpg" class="img-fluid" alt="Photo Three">
+                    <blockquote class="photoText3"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, nulla</p></blockquote>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/photo_four.jpg" class="img-fluid" alt="Photo Four">
+                    <blockquote class="photoText2"><p>Lorem ipsum dolor sit amet</p></blockquote>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/photo_five.jpg" class="img-fluid" alt="Photo Five">
+                    <blockquote class="photoText1"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, nulla pretium commodo ultricies</p></blockquote>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/photo_six.jpg" class="img-fluid" alt="Photo Six">
+                    <blockquote class="photoText2"><p>Lorem ipsum dolor sit amet elit.</p></blockquote>
+
+                    <img src="img/photo_seven.jpg" class="img-fluid" alt="Photo Seven">
+                    <blockquote class="photoText1"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, nulla pretium commodo ultricies</p></blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+    <!-- SIGNUP SECTION -->
+    <section id="signup">
+        <div class="container">
+            <h1 style="margin-left: 15px">Sign up now!</h1><br />
+            <div class="col-md-4">
+                <div style="text-align:center">
+                    <table class="table">
+                        <thead class="bg-primary text-white">
+                            <tr>
+                                <th>
+                                    <h2>BASIC PLAN</h2>
+                                    <div class="price"><sup class="dollar">$</sup>19</div>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr><td><a href="#" class="btn btn-primary" style="width:325px"><b>Sign up now!</b></a></td></tr>
+                        </tfoot>
+                        <tbody class="tbody">
+                            <tr><td style="white-space:pre;text-align:left">Feature                                                     Name</td></tr>
+                            <tr><td style="white-space:pre;text-align:left">Feature                                                     Name</td></tr>
+                            <tr><td style="white-space:pre;text-align:left">Feature                                                     Name</td></tr>
+                            <tr><td style="white-space:pre;text-align:left">Feature                                                     Name</td></tr>
+                            <tr><td style="white-space:pre;text-align:left">Feature                                                     Name</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div style="text-align:center">
+                    <table class="table">
+                        <thead class="bg-success text-white">
+                            <tr>
+                                <th>
+                                    <h2>PREMIUM PLAN</h2>
+                                    <div class="price"><sup class="dollar">$</sup>29</div>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr><td><a href="#" class="btn btn-success" style="width:325px"><b>Sign up now!</b></a></td></tr>
+                        </tfoot>
+                        <tbody>
+                            <tr><td style="white-space:pre;text-align:left">Feature                                                     Name</td></tr>
+                            <tr><td style="white-space:pre;text-align:left">Feature                                                     Name</td></tr>
+                            <tr><td style="white-space:pre;text-align:left">Feature                                                     Name</td></tr>
+                            <tr><td style="white-space:pre;text-align:left">Feature                                                     Name</td></tr>
+                            <tr><td style="white-space:pre;text-align:left">Feature                                                     Name</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div style="text-align:center">
+                    <table class="table">
+                        <thead class="bg-danger text-white">
+                            <tr>
+                                <th>
+                                    <h2>PRO PLAN</h2>
+                                    <div class="price"><sup class="dollar">$</sup>39</div>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr><td><a href="#" class="btn btn-danger" style="width:325px"><b>Sign up now!</b></a></td></tr>
+                        </tfoot>
+                        <tbody>
+                            <tr><td style="white-space:pre;text-align:left">Feature                                                     Name</td></tr>
+                            <tr><td style="white-space:pre;text-align:left">Feature                                                     Name</td></tr>
+                            <tr><td style="white-space:pre;text-align:left">Feature                                                     Name</td></tr>
+                            <tr><td style="white-space:pre;text-align:left">Feature                                                     Name</td></tr>
+                            <tr><td style="white-space:pre;text-align:left">Feature                                                     Name</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
